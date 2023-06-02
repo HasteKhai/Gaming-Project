@@ -9,7 +9,7 @@ class Game:
 		pygame.init()
 		self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
 		pygame.display.set_caption("VioletYes's Journey")
-		self.clock = pygame.time.Clock()
+		self.clock = pygame.time.Clock()                                                  
 
 		self.level = Level()
 	
@@ -34,3 +34,4 @@ class Game:
 if __name__ == '__main__':
 	game = Game()
 	game.run()
+	
